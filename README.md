@@ -1,9 +1,9 @@
 
-# Generating Word Embeddings - Lab
+# Generating Word Embeddings - Codealong
 
 ## Introduction
 
-In this lab, we'll learn how to generate our own word embeddings by training our own Word2Vec model, and also by building embedding layers right into our Deep Neural Networks!
+In this codealong, we'll learn how to generate our own word embeddings by training our own Word2Vec model, and also by building embedding layers right into our Deep Neural Networks!
 
 ## Objectives
 
@@ -14,11 +14,11 @@ You will be able to:
 
 ## Getting Started
 
-In this lab, we'll start by creating our own word embeddings by making use of the Word2Vec Model. Then, we'll move onto building Neural Networks that make use of **_Embedding Layers_** to accomplish the same end-goal, but directly in our model. 
+In this codealong, we'll start by creating our own word embeddings by making use of the Word2Vec Model. Then, we'll move onto building Neural Networks that make use of **_Embedding Layers_** to accomplish the same end-goal, but directly in our model. 
 
-The easiest way to make use of Word2Vec is to import it from the [Gensim Library](https://radimrehurek.com/gensim/). This model contains a full implementation of Word2Vec, which we can use to begin training immediately. For this lab, we'll be working with the [News Category Dataset from Kaggle](https://www.kaggle.com/rmisra/news-category-dataset/version/2#_=_).  This dataset contains headlines and article descriptions from the news, as well as categories for which type of article they belong to.  In this lab, we'll learn how to train a Word2Vec model on the text data to generate word embeddings for them. In the next lab, we'll then use the vectors created by our Word2Vec model to effectively train a classifier to predict the category of news given the headline and description of each article. In this lab, we won't do any classification, although we will learn how to train a Word2Vec model and explore the relationships between different word vectors in our embedding!
+The easiest way to make use of Word2Vec is to import it from the [Gensim Library](https://radimrehurek.com/gensim/). This model contains a full implementation of Word2Vec, which we can use to begin training immediately. For this codealong, we'll be working with the [News Category Dataset from Kaggle](https://www.kaggle.com/rmisra/news-category-dataset/version/2#_=_).  This dataset contains headlines and article descriptions from the news, as well as categories for which type of article they belong to.  We'll also learn how to train a Word2Vec model on the text data to generate word embeddings for them. In the next lab, we'll then use the vectors created by our Word2Vec model to effectively train a classifier to predict the category of news given the headline and description of each article. In this lab, we won't do any classification, although we will learn how to train a Word2Vec model and explore the relationships between different word vectors in our embedding!
 
-Run the cell below to import everything we'll need for this lab. 
+Run the cell below to import everything we'll need for this codealong. 
 
 
 ```python
@@ -359,4 +359,4 @@ We'll see in the next lab that from a practical standpoint, one of the best thin
 
 # Summary
 
-In this lab, we learned how to train and use a Word2Vec model to created vectorized word embeddings!
+In this codealong, we learned how to train and use a Word2Vec model to created vectorized word embeddings!
